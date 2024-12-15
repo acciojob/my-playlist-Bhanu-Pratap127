@@ -15,8 +15,8 @@ h2{
 
 li{
 	list-style-type:none;
-	padding:2px;
-	margin:5px
+	/* padding:2px;
+	margin:5px */
 }
 
 ul{
@@ -28,20 +28,37 @@ ul{
 
 #song{
 	background-color:rgb(255,255,255);
-	padding:50px;
-	margin:50px;
-	border-radius:9px;
-	border:2px solid black
-	/* display:grid; */
+	border:2px solid black;
+	border-radius:8px;
+	height:460px;
+	/* padding:30px */
 }
 
 .player_one{
   /* width:500px; */
 	/* display:; */
 	/* height:300px; */
-	margin:32px
+	/* margin:32px */
+	background-color:white;
+	padding:20px;
+	border-radius:5px;
+	height:260px;
+	width:520px
+}
+
+.player_two{
+	background-color:white;
+	padding:10px;
+	border-radius:5px;
+	height:40px;
+	width:540px
 }
 
 h2{
-	text-align:center
+	text-align:center;
+	margin-top:none;
+}
+
+a{
+	text-decoration-line:none;
 }
